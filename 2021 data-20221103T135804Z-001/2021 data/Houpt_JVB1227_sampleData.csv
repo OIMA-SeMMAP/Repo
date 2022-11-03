@@ -1,0 +1,46 @@
+BatchId,SampleId,CaptureTime,CaptureTime(UTC),ClientId,Lat,Long,Note,PublishStatus,SiteName,Status,VolumeWater
+JVB1326,0MEH7CHZ,1596010216000,07/29/2020 08:10 AM,peter.houpt@waterboards.ca.gov,39.4079010749849,'-121.07246715808604,NA,Public,Oregon Creek,Completed,410 ml
+JVB1326,38E9A0I2,1599063252000,09/02/2020 04:14 PM,peter.houpt@waterboards.ca.gov,38.7646,'-119.8565,Duplicate sample. Clear skies. Evidence of camping in the area,Public,W.fork carson river 633ps0259,Completed,388 ml
+JVB1326,6OQTOL3R,1598610660000,08/28/2020 10:31 AM,peter.houpt@waterboards.ca.gov,39.0811,'-120.9944,"Swimmers, gold panners, fish",Public,Bear river,Completed,220 ml
+JVB1326,9UEWYW2S,1596044426000,07/29/2020 05:40 PM,peter.houpt@waterboards.ca.gov,39.2233878608849,'-121.26980929053799,this was 6 syringes and a little left over ,Public,Deer Creek site 10,Completed,370 ml
+JVB1326,B38RWO34,1598633137000,08/28/2020 04:45 PM,peter.houpt@waterboards.ca.gov,39.5055,'-120.2731,Smoky skies,Public,Little truckee river,Completed,300 ml
+JVB1326,D9KE4M3W,1599062703000,09/02/2020 04:05 PM,peter.houpt@waterboards.ca.gov,38.7646,'-119.8565,Clear skies. Evidence of camping in the area,Private,W.fork carson river 633ps0259,Completed,360 ml
+JVB1326,DHKAAL0M,1602844512000,10/16/2020 10:35 AM,peter.houpt@waterboards.ca.gov,39.16712,'-122.50704,"Stanton creek 3, algae present ",Public,Stanton creek 3,Completed,300 ml
+JVB1326,F6L847VI,1596047723000,07/29/2020 06:35 PM,peter.houpt@waterboards.ca.gov,39.2587306832183,'-121.00960269069186,NA,Public,Little Deer Creek Site 13,Completed,230 ml
+JVB1326,HQHKQVOO,1602269271000,10/09/2020 06:47 PM,peter.houpt@waterboards.ca.gov,39.268282,'-121.00189,"Some smoke in the air,  some clouds",Public,"SSI Site 2, willow rd",Completed,480 ml
+JVB1326,I2TCAGTI,1602877146000,10/16/2020 07:39 PM,peter.houpt@waterboards.ca.gov,39.29628,'-122.551741,See Stony creek 1,Public,Stony creek 2,Completed,470 ml
+JVB1326,LXNSFSRM,1602875085000,10/16/2020 07:04 PM,peter.houpt@waterboards.ca.gov,39.291775,'-122.559353,First of 3 sites along stony creek moving at approximately 1000m intervals. I believe there is mining activity about a mile above above these sites ,Public,Stony creek 1,Completed,540 ml
+JVB1326,MAX9U1SY,1599066721000,09/02/2020 05:12 PM,peter.houpt@waterboards.ca.gov,38.7853,'-120.0182,None,Public,Unnamed trib. .5 mile above upper truckee,Completed,480 ml
+JVB1326,NDYBOSCI,1599033753000,09/02/2020 08:02 AM,peter.houpt@waterboards.ca.gov,38.8432,'-120.3025,"80% dry, boulders and flat rock. Smallish rivulet. ",Public,Jones fork silver creek,Completed,229 ml
+JVB1326,NIS3JHUE,1602272728000,10/09/2020 07:45 PM,peter.houpt@waterboards.ca.gov,39.407901,'-121.07246,Fair amount of leaf litter in and around the water ,Public,Oregon creek reference ,Completed,560 ml
+JVB1326,O8JZ5APC,1602273034000,10/09/2020 07:50 PM,peter.houpt@waterboards.ca.gov,39.407901,'-121.07246,A fair amount of leaf litter in and around the water,Public,Oregon creek reference duplicate ,Completed,470 ml
+JVB1326,P8RFOW4X,1602841462000,10/16/2020 09:44 AM,peter.houpt@waterboards.ca.gov,39.16739,'-122.52635,Recent fire activity in the area. First of 3 samples moving upstream approximately 1000m intervals. Algae present in stream.,Public,"Stanton creek,Bartlett Springs rd",Completed,230 ml
+JVB1326,PFP3IAKW,1602843078000,10/16/2020 10:11 AM,peter.houpt@waterboards.ca.gov,39.16721,'-122.51625,"See Stanton creek 1 , Algae present",Public,Stanton creek 2,Completed,350 ml
+JVB1326,PIB2ND0I,1596040572000,07/29/2020 04:36 PM,peter.houpt@waterboards.ca.gov,39.2405237850352,'-121.18718934346747,was that a lot of water,Public,site 6,Completed,400 ml
+JVB1326,PQ5ZOKCT,1602267643000,10/09/2020 06:20 PM,peter.houpt@waterboards.ca.gov,39.25873,'-121.009602,"Some smoke in the air, some clouds",Public,Little deer creek ,Completed,250 ml
+JVB1326,R0W0YB0K,1598636715000,08/28/2020 05:45 PM,peter.houpt@waterboards.ca.gov,39.3028,'-120.1206,"Algae, ongoing restoration work, murky",Public,Martis creek,Completed,105 ml
+JVB1326,S3MA6GI2,1598628616000,08/28/2020 03:30 PM,peter.houpt@waterboards.ca.gov,39.5271,'-120.2894,Algae and fish present,Public,Cold stream,Completed,500 ml
+JVB1326,VNTRF25N,1599070002000,09/02/2020 06:06 PM,peter.houpt@waterboards.ca.gov,38.8103,'-120.0175,"Duplicate sample. Sediment present, filamentous algae",Public,"Truckee river, upper 634tru231",Completed,210 ml
+JVB1326,XBMSFV5C,1602835253000,10/16/2020 08:00 AM,peter.houpt@waterboards.ca.gov,39.298634,'-122.548149,See stony creek 1,Public,Stony creek 3,Completed,520 ml
+JVB1326,Y50IWGKC,1599069061000,09/02/2020 05:51 PM,peter.houpt@waterboards.ca.gov,38.8103,'-120.0175,"Nonesediment present, filamentous algae",Public,"Truckee river, upper 634tru231",Completed,210 ml
+JVB1326,YFQSP1CO,1596050125000,07/29/2020 07:15 PM,peter.houpt@waterboards.ca.gov,39.2682823697883,'-121.00189011098611,NA,Public,Deer Creek site 2,Completed,370 ml
+JVB1227,3ZCGO286,1623861025000,06/16/2021 04:30 PM,peter.houpt@waterboards.ca.gov,39.224579,'-121.268602,From Helen,Private,SSI Deer Creek 10,Completed,240 ml
+JVB1227,DKDLKMU1,1623688840000,06/14/2021 04:40 PM,peter.houpt@waterboards.ca.gov,39.239841,'-121.187204,From Helen,Private,SSI Deer Creek 6,Completed,385 ml
+JVB1227,M0PHRLHQ,1623862840000,06/16/2021 05:00 PM,peter.houpt@waterboards.ca.gov,39.445951,'-121.046392,From Helen,Private,SSI Oregon Creek,Completed,900 ml
+JVB1227,RYS12P57,1623697772000,06/14/2021 07:09 PM,peter.houpt@waterboards.ca.gov,39.2589023511608,'-121.01014702029123,Pioneer Park site by picnic tables. Still pool spot.,Private,SSI Deer Creek Site 13,Completed,190 ml
+JVB1227,W0090N4R,1623689173000,06/14/2021 04:46 PM,peter.houpt@waterboards.ca.gov,39.2682871601105,'-121.00142742026166,Fuller creek than before- cold dam bottom release,Private,SSI Deer Creek site 2,Completed,420 ml
+JVB1227,UC45V11N,1621881032000,05/24/2021 06:30 PM,nathan.mack@wildlife.ca.gov,37.99472,'-120.19267,North fork tuolumne river,Private,536TMR003,Completed,300 ml
+JVB1227,ZMCYA8F9,1622570409000,06/01/2021 06:00 PM,nathan.mack@wildlife.ca.gov,39.4653,'-120.9672,Oregon creek,Private,517FCA046,Completed,240 ml
+JVB1227,FQDGJ06F,1622656827000,06/02/2021 06:00 PM,nathan.mack@wildlife.ca.gov,39.31907,'-122.84589,Blue slides creek,Private,111fs0008,Completed,300 ml
+JVB1227,ATGJBD1F,1623052815000,06/07/2021 08:00 AM,nathan.mack@wildlife.ca.gov,39.1842,'-122.53555,Stanton creek,Private,513stcaiv,Completed,240 ml
+JVB1227,QTJ1CPIH,1623261627000,06/09/2021 06:00 PM,nathan.mack@wildlife.ca.gov,39.1657,'-122.62009,North fork of Cache creek,Private,513ccnasc,Completed,240 ml
+JVB1227,Z9LBZ98B,1625041848000,06/30/2021 08:30 AM,nathan.mack@wildlife.ca.gov,39.5271,'-120.2894,Cold stream creek,Public,518cds022,Completed,300 ml
+JVB1227,S9KU7UJP,1625072402000,06/30/2021 05:00 PM,nathan.mack@wildlife.ca.gov,39.50262,'-120.52744,Pass creek,Public,517psc038,Completed,300 ml
+JVB1227,HE6ZA125,1626283803000,07/14/2021 05:30 PM,nathan.mack@wildlife.ca.gov,39.2915,'-122.559,South fork Stony creek,Public,522ce0027,Completed,300 ml
+JVB1227,YPI4LJCL,1626890435000,07/21/2021 06:00 PM,nathan.mack@wildlife.ca.gov,39.5995,'-120.5114,Lincoln creek,Public,517lccyab,Completed,300 ml
+JVB1227,8XNGYLAK,1628092802000,08/04/2021 04:00 PM,nathan.mack@wildlife.ca.gov,38.4024,'-119.7999,Arnot creek,Public,534arc279,Completed,300 ml
+JVB1227,NDEPCFLS,1628532044000,08/09/2021 06:00 PM,nathan.mack@wildlife.ca.gov,39.3833,'-120.2258,Prosser creek,Public,635prs001,Completed,300 ml
+JVB1227,RHHVTXAR,1629223222000,08/17/2021 06:00 PM,nathan.mack@wildlife.ca.gov,38.6949,'-120.2014,Silver fork of the American river,Public,514SFA222,Completed,300 ml
+JVB1227,Z8833HXW,1629483314000,08/20/2021 06:15 PM,nathan.mack@wildlife.ca.gov,39.0192,'-120.1533,Meeks creek,Public,634MKCBLG,Completed,100 ml
+JVB1227,6L94UIRL,1630400416000,08/31/2021 09:00 AM,nathan.mack@wildlife.ca.gov,38.0659,'-119.226,Virginia creek,Public,630ps0005,Completed,300 ml
+JVB1227,3UMD85OW,1630512014000,09/01/2021 04:00 PM,nathan.mack@wildlife.ca.gov,37.7094,'-119.0582,Deadman creek,Public,603ps0073,Completed,300 ml
