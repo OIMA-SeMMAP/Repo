@@ -1,0 +1,65 @@
+
+Sample Process
+1.4.1
+A High Quality 40W USB CO2 Laser Engraving Cutting Machine Engraver Cutter with CorelDraw Software (cat# DKJ-40W-US) (Amunstar Trading Company, Guangdong, China) was used for removal of plastic casing from filter. Once plastic casing was cut, sample barcodes were recorded and assigned a well within the 96 well plate or numbered extraction tube. The whole filter was removed and transferred to the extraction plate/tube using sterilized tweezers inside a laminar flow hood. Plates or tubes were immediately processed or stored in -20C until the extraction process could be performed.
+
+
+Extraction
+2.1.2
+Genomic DNA from samples was extracted using the DNeasy PowerSoil HTP 96 Kit (Cat # 12955-4) according to the manufacturer’s protocol. Genomic DNA was eluted into 100µl and frozen at -20C.
+
+
+PCR
+3.10.1
+Forward primer: GGACAGAAAGACCCTATGAA
+
+Reverse primer: TGAGTGACGGCCTTTCCACT
+
+Primer notes: Algal 
+
+Primer reference: Sherwood & Presting 2007; Hamsher et al. 2011; Cannon et al. 2016
+
+A portion of the chloroplast was PCR amplified from each genomic DNA sample using the p23SrV_f1 and Diam23Sr1 23S primers. Both forward and reverse primers also contained a 5’ adaptor sequence to allow for subsequent indexing and Illumina sequencing. Each 40 µL PCR reaction was mixed according to the Promega PCR Master Mix specifications (Promega catalog # M5133, Madison, WI) which included 12.5ul Master Mix, 0.5 µM of each primer, 1.0 µl of gDNA, and 10.5 µl DNase/RNase-free H2O. DNA was PCR amplified using the following conditions: initial denaturation at 94C for 3 minutes, followed by 40 cycles of 30 seconds at 94C, 45 seconds at 55C, and 1 minute at 72C, and a final elongation at 72C for 10 minutes. 
+
+
+Gel
+4.1.1
+To determine amplicon size and PCR efficiency, each reaction was visually inspected using a 2% agarose gel with 5µl of each sample as input. 
+
+
+PCR Amplicon Cleanup
+5.1.1
+Amplicons were then cleaned by incubating amplicons with Exo1/SAP for 30 minutes at 37C following by inactivation at 95C for 5 minutes and stored at -20C. 
+
+
+Barcoding PCR
+6.1.1
+A second round of PCR was performed to give each sample a unique 12-nucleotide index sequence. The indexing PCR included Promega Master mix, 0.5 µM of each primer and 2 µl of template DNA (cleaned amplicon from the first PCR reaction) and consisted of an initial denaturation of 95C for 3 minutes followed by 8 cycles of  95C for 30 sec, 55C for 30 seconds and 72C for 30 seconds. 
+
+
+PCR Normal Pool
+8.1.1
+Final indexed amplicons from each sample were cleaned and normalized using SequalPrep Normalization Plates (Life Technologies, Carlsbad, CA). 25µl of PCR amplicon is purified and normalize using the Life Technologies SequalPrep Normalization kit (cat#A10510-01) according to the manufacturer’s protocol. Samples are then pooled together by adding 5µl of each normalized sample to the pool.  
+
+
+Sequencing
+9.2.1
+Sample library pools were sent for sequencing on an Illumina MiSeq (San Diego, CA) in the CU Boulder BioFrontiers Sequencing Center using the v2 500-cycle kit (cat# MS-102-2003). Necessary quality control measures were performed at the sequencing center prior to sequencing.
+
+
+Bioinformatics
+10.2.1
+Sequencing success and read quality was verified using FastQC v0.11.8, and reads were demultiplexed by using Illumina-utils v2.6 (iu-demultiplex) using default settings. Sequences of each sample were then merged using the -fastq_mergepairs option in Usearch v11.0.667 [1]. The forward primer (5’- GGACAGAAAGACCCTATGAA-3’) and reverse primer (5’- TGAGTGACGGCCTTTCCACT-3’) were removed using Cutadapt v1.18 [2]. Cutadapt is also used to discard sequences with length below 300 bp and above 380 bp. Expected error filtering as implemented in Usearch is then used to discard low quality reads (max_ee=0.5)[3]. Instead of OTU clustering, reads affected by sequencing and PCR errors are then removed using the unoise3 algorithm with an alpha value of 5 [4]. This denoising is applied to each individual sample, and Exact sequence variants (ESV) complied in a ESV table including sequences and read counts for each sample. Taxonomy is assigned to each ESV by mapping them against a GenBank reference data [5] as well as Jonah Ventures voucher sequences records, using usearch_global with –maxaccepts 0 and –maxrejects 0 to ensure mapping accuracy. Consensus taxonomy is generated from the hit tables, by first considering 100% matches, and then going down in 1% steps until hits are present for each ESV. In the respective 1% bracket, taxonomy present in at least 90% of the hits is reported or an NA reported, if several taxa are matching the ESV. To reduce errors caused by misidentified taxa, the bracket is increased to 2% if matches of 97% or higher are present, and no family level taxonomy is returned. 
+
+References:
+
+1. R. C. Edgar, Search and clustering orders of magnitude faster than BLAST. Bioinformatics 26, 2460 (2010).
+
+2. M. Martin, Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet. journal 17, pp. 10 (2011).
+
+3. Edgar, R. C., & Flyvbjerg, H. (2015). Error filtering, pair assembly and error correction for next-generation sequencing reads. Bioinformatics, 31(21), 3476–3482. http://doi.org/10.1093/bioinformatics/btv401
+
+4. Edgar, R. C. (2016). UNOISE2: improved error-correction for Illumina 16S and ITS amplicon sequencing. bioRxiv. http://doi.org/10.1101/081257
+
+5. D. A. Benson, I. Karsch-Mizrachi, D. J. Lipman, J. Ostell, D. L. Wheeler, GenBank. Nucleic Acids Res 33, D34 (2005).
+
