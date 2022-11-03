@@ -1,0 +1,4 @@
+BatchId,ClientId,SampleId,ClientSampleId,Capture time (MT),Lat,Long,SiteName,PublishStatus
+JVB1893,oima-semmap@waterboards.ca.gov,UHLENJ81,,8/23/2022 4:20:51 AM,41.51612291384137,-124.00198422937525,KWF,Private
+JVB1893,oima-semmap@waterboards.ca.gov,AOKWHXBI,,8/23/2022 3:27:03 AM,41.424503837164806,-123.92889536518736,BLU,Private
+JVB1893,oima-semmap@waterboards.ca.gov,8DYDSNJ7,,8/23/2022 5:15:00 AM,41.53650772781444,-124.07619692289933,KES,Private
